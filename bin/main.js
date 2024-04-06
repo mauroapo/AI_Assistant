@@ -18,10 +18,10 @@ function waitForInput() {
                 }
                 else{
                     CreateBatch.createBatFile('bat.bat',response.message.content);
-                    RunBat.run('bat.bat')
-                    .then(result => {
-                        CreateBatch.deleteBatFile('bat.bat');
-                    })
+                    // RunBat.run('bat.bat')
+                    // .then(result => {
+                    //     CreateBatch.deleteBatFile('bat.bat');
+                    // })
                 }
 
                 
